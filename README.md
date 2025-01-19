@@ -18,9 +18,9 @@ before using.
 Near the top of the page are three variables:
 
 ```javascript
-            const method = "local"; // Change this to "local" to send to firewall logs
-            const token = "qwerty"; // Change this to a unique value
-            var remoteUrl = "<image url>"; // An image, 1x1 pixel PNG, hosted on a server that you control.
+const method = "local"; // Change this to "local" to send to firewall logs
+const token = "qwerty"; // Change this to a unique value
+var remoteUrl = "<image url>"; // An image, 1x1 pixel PNG, hosted on a server that you control.
 ```
 
 - `method` controls whether the script sends the request to the `local` firewall
